@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url('https://www.lelongweekend.com/wp-content/uploads/2018/04/Depositphotos_169633404_l-2015-1024x682.jpg');
+    background-size: cover; /* Makes sure the image covers the entire area */
+    background-position: center; /* Centers the image */
+    color: rgb(255, 255, 255); /* Ensures the text is readable against the background */
+    text-align: center; /* Centers the text */
+    padding: 50px 0; /* Adds some padding to give space around the text */
+}
+header h1, header p {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Creates a shadow outline */
+}
+
+nav {
+    background-color: #a17474;
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+}
+
+nav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.container {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #000000;
+    margin-top: 0;
+}
+
+/* Centering images */
+img {
+    display: block;        /* Change the display property to block */
+    margin-left: auto;    /* Auto margin on the left */
+    margin-right: auto;   /* Auto margin on the right */
+    max-width: 100%;      /* Ensure images are responsive */
+    height: auto;         /* Maintain aspect ratio */
+}
+
+/* Optional: Centering section content */
+.section {
+    text-align: center;   /* Centers text within sections */
+}
+
+
+iframe {
+    width: 100%;
+    height: 300px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
